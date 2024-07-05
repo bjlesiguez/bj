@@ -17,7 +17,7 @@ namespace InsuranceQuoteCalculator
         static void Main(string[] args)
         {
             // User input 
-            int age = 30;
+            int age = 32;
             int carYear = 2010;
             string carMake = "Porsche";
             bool hasSpeedingTicket = true;

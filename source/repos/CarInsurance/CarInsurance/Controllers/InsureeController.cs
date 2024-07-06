@@ -10,6 +10,8 @@ using CarInsurance.Models;
 
 
 
+
+
 namespace InsuranceQuoteCalculator
 {
     class Program
@@ -17,7 +19,7 @@ namespace InsuranceQuoteCalculator
         static void Main(string[] args)
         {
             // User input 
-            int age = 32;
+            int age = 30;
             int carYear = 2010;
             string carMake = "Porsche";
             bool hasSpeedingTicket = true;
@@ -64,11 +66,10 @@ namespace InsuranceQuoteCalculator
             // Display the final quote
             Console.WriteLine($"Your insurance quote: ${baseQuote} per month");
 
-           
+
         }
     }
 }
-
 
 namespace CarInsurance.Controllers
 {
@@ -187,4 +188,5 @@ namespace CarInsurance.Controllers
             base.Dispose(disposing);
         }
     }
+
 }
